@@ -63,11 +63,11 @@ namespace App2
 
             foreach (var bd in adapter.BondedDevices)
             {
-                if (bd.Name.StartsWith("Smart"))
+                if (bd.Name.StartsWith("yourBluetoothname"))
                 {
                     device1 = bd;
                 }
-                if (bd.Name.StartsWith("fuck"))
+                if (bd.Name.StartsWith("yourBluetoothname"))
                 {
                     device2 = bd;
 
